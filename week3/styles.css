@@ -1,0 +1,21 @@
+
+        body {
+            margin: 20px; padding: 0; background-color: #d2fcfc;
+        }
+
+        h1, h2 {
+            color:#0b69a3;
+        }
+
+        hr {
+            border: 1px solid; margin: 20px 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: darkblue;
+        }
+ 
