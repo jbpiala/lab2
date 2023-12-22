@@ -57,6 +57,10 @@ a {
     color: darkblue;
     }
 
+img {
+	border-radius: 5px;
+}
+
 .Socials img {
   display: inline-block;
   margin-right: 10px;
