@@ -1,5 +1,4 @@
 .Me {
-	background-color: #117C6F;
     padding: 10px;
     border-radius: 10px;
 	text-align: center;
@@ -7,32 +6,35 @@
     }
 		
 .Bio {
-	background-color: #2FC4B2; 
-    padding: 10px;
+	background-color: #00c7d5; 
+    padding: 1px;
     border-radius: 10px;
 	text-align: center;
-	font-family: Tahoma;
+	font-family: sans-serif;
+	font-variant: small-caps;
     }
 	
 .Skills {
-	background-color: #2FC4B2;
-    padding: 10px;
+	background-color: #00c7d5;
+    padding: 1px;
     border-radius: 10px;
 	text-align: center;
-	font-family: Tahoma;
+	font-family: sans-serif;
+	font-variant: small-caps;
     }
 
 .Socials {
-	background-color: #117C6F; 
+	background-color: #00072D; 
     padding: 10px;
     border-radius: 10px;
 	text-align: center;
-	font-family: Tahoma;
+	font-family: sans-serif;
+	font-variant: small-caps;
     }
 body {
     margin: 20px; padding: 0; 
-	background-color: #8DE5D8;
-	font-family: Tahoma, sans-serif;
+	background-color: #091B2A;
+	font-family: Poppins, sans-serif;
     }
 	
 h1, h2 {
@@ -46,15 +48,16 @@ h3 {
 hr {
     border: 1px solid; 
 	margin: 20px 0;
-	color: #117C6F;
+	color: #0ef;
     }
 
 p {
     line-height: 1.6;
+	color:#cfcfcf
     }
 
 a {
-    color: darkblue;
+    color: #0ef;
     }
 
 img {
@@ -69,9 +72,37 @@ img {
 }
 
 #FB {
-  background-image: url(FB.png);
+  font-size: 60px;
 }
 
 #GH {
-  background-image: url(GH.png);
+  font-size: 60px;
+}
+
+#Neon {
+  color:#0ef;
+  font-variant: small-caps;
+  font-family: sans-serif;
+}
+
+#Pic {
+  vertical-align: middle;
+  width: 75px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #0ef;
+}
+}
+
+#Dark {
+  color:#00072D;
+}
+
+#glow {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#glow:hover {
+	text-shadow: 0 0 20px #fff, 0 0 30px #00eeff, 0 0 40px #00eeff, 0 0 50px #00eeff, 0 0 60px #00eeff, 0 0 70px #00eeff, 0 0 80px #00eeff;
 }
