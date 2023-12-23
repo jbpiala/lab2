@@ -1,36 +1,3 @@
-.Me {
-    padding: 10px;
-    border-radius: 10px;
-	text-align: center;
-	margin-bottom: 20px;
-    }
-		
-.Bio {
-	background-color: #00c7d5; 
-    padding: 1px;
-    border-radius: 10px;
-	text-align: center;
-	font-family: sans-serif;
-	font-variant: small-caps;
-    }
-	
-.Skills {
-	background-color: #00c7d5;
-    padding: 1px;
-    border-radius: 10px;
-	text-align: center;
-	font-family: sans-serif;
-	font-variant: small-caps;
-    }
-
-.Socials {
-	background-color: #00072D; 
-    padding: 10px;
-    border-radius: 10px;
-	text-align: center;
-	font-family: sans-serif;
-	font-variant: small-caps;
-    }
 body {
     margin: 20px; padding: 0; 
 	background-color: #091B2A;
@@ -64,6 +31,42 @@ img {
 	border-radius: 5px;
 }
 
+
+
+.Me {
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+		
+.Bio {
+	background-color: #00c7d5; 
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
+.Skills {
+	background-color: #00c7d5;
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+
+.Socials {
+	background-color: #00072D; 
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
 .Socials img {
   display: inline-block;
   margin-right: 10px;
@@ -71,11 +74,17 @@ img {
   height: 50px;
 }
 
+
+
 #FB {
   font-size: 60px;
 }
 
 #GH {
+  font-size: 60px;
+}
+
+#LI {
   font-size: 60px;
 }
 
@@ -91,7 +100,6 @@ img {
   height: 200px;
   border-radius: 50%;
   border: 3px solid #0ef;
-}
 }
 
 #Dark {
