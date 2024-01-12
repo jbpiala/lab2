@@ -119,4 +119,7 @@ img {
 	font-family: sans-serif;
 	font-variant: small-caps;
 }
-	
+
+#pos {
+	float: right;
+}
