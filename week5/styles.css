@@ -1,0 +1,115 @@
+body {
+    margin: 20px; padding: 0; 
+	background-color: black;
+	font-family: Poppins, sans-serif;
+    }
+
+h1, h2 {
+    color:#FEFFFF;
+    }
+
+h3 {
+	color:#2B9C8E;
+}
+
+hr {
+    border: 1px solid; 
+	margin: 20px 0;
+	color: #0ef;
+    }
+
+p {
+    line-height: 1.6;
+	color:#cfcfcf
+    }
+
+a {
+    color: #0ef;
+    }
+
+img {
+	border-radius: 5px;
+}
+
+
+
+.Me {
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+    }
+		
+.Bio {
+	background-color: #00c7d5; 
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
+.Skills {
+	background-color: #00c7d5;
+    padding: 1px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+
+.Socials {
+	background-color: #00072D; 
+    padding: 10px;
+    border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    }
+	
+.Socials img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+
+#FB {
+  font-size: 60px;
+}
+
+#GH {
+  font-size: 60px;
+}
+
+#LI {
+  font-size: 60px;
+}
+
+#Neon {
+  color:#0ef;
+  font-variant: small-caps;
+  font-family: sans-serif;
+}
+
+#Pic {
+  vertical-align: middle;
+  width: 75px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #0ef;
+}
+
+#Dark {
+  color:#00072D;
+}
+
+#glow {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#glow:hover {
+	text-shadow: 0 0 20px #fff, 0 0 30px #00eeff, 0 0 40px #00eeff, 0 0 50px #00eeff, 0 0 60px #00eeff, 0 0 70px #00eeff, 0 0 80px #00eeff;
+}
