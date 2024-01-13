@@ -38,9 +38,7 @@ img {
 	border-radius: 5px;
 }
 
-
-
-.Me {
+.Adjust {
     padding: 10px;
     border-radius: 10px;
 	text-align: center;
@@ -85,6 +83,27 @@ img {
 	font-size: 18px;
 	margin-bottom: 2px;
 }
+
+.btn {
+	border: none;
+	outline: none;
+	background: #0ef;
+	padding: 10px;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	border-radius: 7px;
+	color: #ddd;
+	cursor: pointer;
+	margin: 10px auto;
+	
+}
+	
+.btn:hover{
+	background: #000370;
+}
+
+
 #FB {
   font-size: 60px;
 }
