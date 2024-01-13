@@ -38,6 +38,16 @@ img {
 	border-radius: 5px;
 }
 
+button {
+    outline: none;
+    padding: 12px;
+    border: none;
+    background-color: rgb(25, 121, 211);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+ }
+
 .Adjust {
     padding: 10px;
     border-radius: 10px;
@@ -103,6 +113,15 @@ img {
 	background: #000370;
 }
 
+.img-container {
+    margin: 20px auto;
+    width: 100%;
+	
+}
+
+.btn-container {
+    text-align: center;
+ }
 
 #FB {
   font-size: 60px;
