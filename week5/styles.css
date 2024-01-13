@@ -1,10 +1,17 @@
 body {
     margin: 20px; padding: 0; 
-	background-color: black;
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: Poppins, sans-serif;
     }
 
-h1, h2 {
+h1 {
+	color:#FEFFFF;
+	margin-top: 0px;
+}
+
+h2 {
     color:#FEFFFF;
     }
 
@@ -73,8 +80,11 @@ img {
   width: 50px;
   height: 50px;
 }
-
-
+.Size {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
 #FB {
   font-size: 60px;
 }
@@ -101,10 +111,6 @@ img {
   border: 3px solid #0ef;
 }
 
-#Dark {
-  color:#00072D;
-}
-
 #glow {
   font-size: 50px;
   font-family: sans-serif;
@@ -122,4 +128,10 @@ img {
 
 #pos {
 	float: right;
+}
+
+#intro {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
 }
