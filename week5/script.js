@@ -1,3 +1,7 @@
+
+//html dom
+document.getElementById("p1").innerHTML = "Yes, I have always been interested in coding/art ever since i was a child, and wanted to create my own game before.";
+
 //function
 function myFunction() {
   alert("Welcome to my website, its still a work in progress!");
@@ -22,11 +26,7 @@ function bg2() {
     document.querySelector('body').style.background = "url('bg2.jpg') center center / cover";
 }
 
-
 //objects
 const hobby = {firhobby:"sketching", sechobby:"reading manhuas/manhwas/mangas", thihobby:"photography", forhobby:"playing sports", fifhobby:"gaming"};
 
-
-document.getElementById("hobby").innerHTML =
-"My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
-
+document.getElementById("hobby").innerHTML = "My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
