@@ -1,3 +1,8 @@
+//function
+function myFunction() {
+  alert("Welcome to my website, its still a work in progress!");
+}
+myFunction();
 
 const d = new Date();
 document.getElementById("demo").innerHTML = d.toDateString();
@@ -24,3 +29,4 @@ const hobby = {firhobby:"sketching", sechobby:"reading manhuas/manhwas/mangas", 
 
 document.getElementById("hobby").innerHTML =
 "My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
+
