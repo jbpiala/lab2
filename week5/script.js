@@ -16,3 +16,11 @@ function bg() {
 function bg2() {
     document.querySelector('body').style.background = "url('bg2.jpg') center center / cover";
 }
+
+
+//objects
+const hobby = {firhobby:"sketching", sechobby:"reading manhuas/manhwas/mangas", thihobby:"photography", forhobby:"playing sports", fifhobby:"gaming"};
+
+
+document.getElementById("hobby").innerHTML =
+"My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
