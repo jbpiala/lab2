@@ -1,3 +1,10 @@
+//Browser BOM
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo2").innerHTML = d.toLocaleTimeString();
+}
 
 //html dom
 document.getElementById("p1").innerHTML = "Yes, I have always been interested in coding/art ever since i was a child, and wanted to create my own game before.";
@@ -30,3 +37,4 @@ function bg2() {
 const hobby = {firhobby:"sketching", sechobby:"reading manhuas/manhwas/mangas", thihobby:"photography", forhobby:"playing sports", fifhobby:"gaming"};
 
 document.getElementById("hobby").innerHTML = "My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
+
