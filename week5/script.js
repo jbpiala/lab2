@@ -38,3 +38,15 @@ const hobby = {firhobby:"sketching", sechobby:"reading manhuas/manhwas/mangas", 
 
 document.getElementById("hobby").innerHTML = "My hobbies include " + hobby.firhobby + ", " + hobby.sechobby + ", " + hobby.thihobby + ", " + hobby.forhobby + " and " + hobby.fifhobby + ".";
 
+// Classes
+class Inte {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const myInte1 = new Inte("photography, sketching, and animation");
+const myInte2 = new Inte("martial arts");
+
+document.getElementById("Inte").innerHTML =
+"I have a strong interest in arts, particularly " + myInte1.name + ", as well as " + myInte2.name + ".";
