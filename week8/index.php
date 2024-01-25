@@ -41,7 +41,7 @@
 </div>
 <h3 id = "Neon">I.T. Experience:</h3>
 <p><strong>Programming:</strong> I have some experience in web and mobile application programming. The language used were HTML, JavaScript, CSS, and Python. I also have some experience in developing simple games using the language Python, like this project that we made 2 years ago for example: <a href="https://github.com/Samson-D/Bootcamp-3T2021-SHS-Giddy-s-Plunge-1.git">Giddy's Plunge</a> </p>
-<p><strong>Gaming:</strong> I like a variety of games, and among the ones I play, I particularly like Valorant, TEKKEN, Core Keeper, Elden Ring, and Monster Hunter World.</p>
+<p><strong>Gaming:</strong> I like a variety of games, and among the ones I play, I particularly like <?php $hobby = array("val", "tekken", "eldenring", "mhw", "mlbb"); echo count($hobby);?>, which are Valorant, TEKKEN, Core Keeper, Elden Ring, and Monster Hunter World.</p> <?php // Variable and Functions ?>
 <hr>
 <h3 id = "Neon">Hobbies:</h3>
 
@@ -50,7 +50,7 @@
 <hr>
 
 <h3><strong id = "Neon">Pictures about your interests:</strong></h3>
-<p><strong>Some of the Games I Played:  <?php $hobby = array("val", "tekken", "eldenring", "mhw", "mlbb"); echo count($hobby);?></strong></p> <?php // Arrays ?>
+<p><strong>Some of the Games I Played: <?php $hobby = "val.jpg tekken.jpg eldenring.jpg mhw.jpg mlbb.jpg"; $pattern = "/.jpg/i"; echo preg_match_all($pattern, $hobby);?></strong></p> <?php // RedEx ?>
 <a target="_blank" href = " val.jpg"><img src ="val.jpg" alt="val" style="width:325px;height;250px"> </a>
 <a target="_blank" href = " tekken.jpg"><img src ="tekken.jpg" alt="tekken" style="width:325px;height;200px"> </a>
 <a target="_blank" href = " eldenring.jpg"><img src ="eldenring.jpg" alt="eldenring" style="width:325px;height;200px"> </a>
