@@ -21,7 +21,7 @@
 <a href="https://youtu.be/iSbLHrrqmoM?si=gAvcSK0IsSxTDbV7" target="_blank" class="link" id = "pos"><img src ="tooth.gif" alt="gif" style="width:125px;height;100px"></a>
 <a href="https://youtu.be/xvFZjo5PgG0?si=Lx0iIYnqWDQrIf1B" target="_blank" class="link"><img src ="chika.gif" alt="gif" style="width:100px;height;120px" id></a>
 <div class = "Bio">
-<h2><i class='bx bx-info-circle'></i> Personal Information</h2>
+<h2><i class='bx bx-info-circle'></i> <?php echo "Personal Information" ?></h2> <?php // Echo ?>
 </div>
 <p><strong id = "Neon">Full Name:</strong> John Emmanuel Piala</p></p>
 <p><strong id = "Neon">Nickname:</strong> Emman</p>
