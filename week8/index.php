@@ -31,7 +31,7 @@
 <p><strong id = "Neon">Scholarship:</strong> Public HS Graduate (50%)</p>
 
 <hr>
-<h2><?php $x = "Did you choose this course?";  echo $x;?></h2> <?php // Variable ?>
+<h2><?php function myMessage() {$x = "Did you choose this course?";echo $x;} myMessage();?> </h2> <?php // Variable and Functions ?>
 
 <p id = "p1">Test</p>
 
