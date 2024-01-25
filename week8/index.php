@@ -50,7 +50,7 @@
 <hr>
 
 <h3><strong id = "Neon">Pictures about your interests:</strong></h3>
-<p><strong>Some of the Games I Played:</strong></p> 
+<p><strong>Some of the Games I Played:  <?php $hobby = array("val", "tekken", "eldenring", "mhw", "mlbb"); echo count($hobby);?></strong></p> <?php // Arrays ?>
 <a target="_blank" href = " val.jpg"><img src ="val.jpg" alt="val" style="width:325px;height;250px"> </a>
 <a target="_blank" href = " tekken.jpg"><img src ="tekken.jpg" alt="tekken" style="width:325px;height;200px"> </a>
 <a target="_blank" href = " eldenring.jpg"><img src ="eldenring.jpg" alt="eldenring" style="width:325px;height;200px"> </a>
