@@ -9,6 +9,13 @@
 </head>
 <body>
 <header>
+
+<nav>
+  <a href="index.php">Main</a>
+  <a href="resources.php">Resources</a>
+  <a href="form.php">Forms</a>
+</nav>
+
 <p id="demo"> </p>
 <div class = "Adjust">
 <h1 class = "Size"><p id="intro"></p></h1>
@@ -19,7 +26,7 @@
 </header>
 <main>
 <a href="https://youtu.be/iSbLHrrqmoM?si=gAvcSK0IsSxTDbV7" target="_blank" class="link" id = "pos"><img src ="tooth.gif" alt="gif" style="width:125px;height;100px"></a>
-<a href="https://youtu.be/xvFZjo5PgG0?si=Lx0iIYnqWDQrIf1B" target="_blank" class="link"><img src ="chika.gif" alt="gif" style="width:100px;height;120px" id></a>
+<a href="https://youtu.be/xvFZjo5PgG0?si=Lx0iIYnqWDQrIf1B" target="_blank" class="link"><img src ="chika.gif" alt="gif" style="width:100px;height;120px"></a>
 <div class = "Bio">
 <h2><i class='bx bx-info-circle'></i> <?php echo "Personal Information" ?></h2> <?php // Echo ?>
 </div>
@@ -72,6 +79,9 @@
 <br>
 <button class = "btn" onclick="this.innerHTML=Date()">The time is?</button>
 <p id="demo2"></p>
+
+<hr>
+
 </div>
 </footer>
 // This is a single-line comment
